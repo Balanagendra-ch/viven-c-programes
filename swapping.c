@@ -3,13 +3,13 @@ int main()
 {
 double first,second,temp;
 printf("enter first number: ");
-scanf("%lf",&first);
+scanf("%1f",&first);
 printf("enter second number: ");
-scanf("%lf",&second);
-temp= first;
-first= second;
-second= temp;
-printf("after swapping,first number =%.2lf",first);
-printf("after swapping,second number =%.2lf",second);
+scanf("%1f",&second);
+temp=first;
+first=second;
+second=temp;
+printf("\nafter swapping,first number =%.21f\n",first);
+printf("after swapping,second number =%.21f",second);
 return 0;
 }
